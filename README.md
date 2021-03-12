@@ -1,2 +1,32 @@
-# ArithmeticGenerator
- a context-free language is defined by an arithmetic expression containing the simplest arithmetic operations
+Генератор арифметических выражений на основе КС грамматик
+Пример вывода
+(base) E:\Python>python arithmetic_generator.py
+S -> SOS -> SOSOS
+SOSOSOS       
+SOSOSOSOS     
+SO(S)OSOSOS   
+SO(S)OSOSOSOS 
+SO(S)OSO68OSOS
+SO(S)OSO68OSO48
+SO(S)OSO68O3O48
+SO(S)OSO68O3-48
+SO(S)+SO68O3-48
+SO(S)+S/68O3-48
+SOSO(S)+S/68O3-48
+SOSOSO(S)+S/68O3-48
+S*SOSO(S)+S/68O3-48
+S*SOSO(S)+S/68/3-48
+23*SOSO(S)+S/68/3-48
+23*S-SO(S)+S/68/3-48
+23*S-SO(65)+S/68/3-48
+23*S-S/(65)+S/68/3-48
+23*S-S/(65)+96/68/3-48
+23*S-SOS/(65)+96/68/3-48
+23*(S)-SOS/(65)+96/68/3-48
+23*(S)-SO89/(65)+96/68/3-48
+23*(S)-SOSO89/(65)+96/68/3-48
+23*(S)-SOS*89/(65)+96/68/3-48
+23*(37)-SOS*89/(65)+96/68/3-48
+23*(37)-S-S*89/(65)+96/68/3-48
+23*(37)-S-9*89/(65)+96/68/3-48
+23*(37)-27-9*89/(65)+96/68/3-48
